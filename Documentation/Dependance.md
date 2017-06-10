@@ -28,7 +28,7 @@ the current.future is the base for multiprocessed task
 
 
 ### Description for yaml  
-Yaml is the creator configuration file, i'm choose for easy build configuration  
+Yaml is the configuration file format, i choose for easy build configuration  
 
 
 ### Description for flask  
