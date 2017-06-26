@@ -88,7 +88,7 @@ if __name__ == '__main__':
             pid = "0"
         if is_running(pid) == True:
             print(
-                "Service CubyRouter\t\tstart\t[" +
+                "Service CubyRouter \t\tstart\t[" +
                 bcolors.HEADER +
                 bcolors.FAIL +
                 "!!" +
