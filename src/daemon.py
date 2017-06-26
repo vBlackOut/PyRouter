@@ -141,8 +141,21 @@ if __name__ == '__main__':
                         "stop",
                         "forced-on"],
                     stdout=subprocess.PIPE)
+                print(
+                "Service CubyRouter \t\tstop\t[" +
+                bcolors.HEADER +
+                bcolors.OKGREEN +
+                "ok" +
+                bcolors.ENDC +
+                "]")
         except:
-            pass
+            print(
+                "Service CubyRouter \t\tstop\t[" +
+                bcolors.HEADER +
+                bcolors.FAIL +
+                "!!" +
+                bcolors.ENDC +
+                "]")
 
     if sys.argv[1] == "restart":
         subprocess.Popen(
